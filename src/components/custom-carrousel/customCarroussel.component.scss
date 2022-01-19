@@ -1,0 +1,201 @@
+.custom-carroussel__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // margin: 1em 0;
+    height: 100%;
+    width: 100%;
+    // overflow: hidden;
+    // background-color: yellow;
+}
+.custom-carroussel__header {
+    position: relative;
+    color: #303189;
+    font-weight: bold;
+    margin: 0 0 1em 0;
+}
+.custom-carroussel__content {
+    position: relative;
+    margin: 0 0 2em 0;
+    display: flex;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    // background-color: black;
+}
+.custom-carroussel__footer {
+}
+.button__style {
+    background-color: #303189;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5em;
+    height: 45px;
+    // width: 274px;
+    margin: 0 0 2em 0;
+}
+
+// #app {
+//     height: 100%;
+// }
+// html,
+// body {
+//     position: relative;
+//     height: 100%;
+// }
+
+// body {
+//     background: #eee;
+//     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+//     font-size: 14px;
+//     color: #000;
+//     margin: 0;
+//     padding: 0;
+// }
+
+// body {
+//     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+//     font-size: 14px;
+//     color: #000;
+//     margin: 0;
+//     padding: 0;
+// }
+
+.swiper {
+    // margin: 100px auto;
+    width: 320px;
+    // height: 240px;
+    position: relative;
+}
+
+// .swiper-slide {
+//     // display: flex;
+//     // align-items: center;
+//     // justify-content: center;
+//     // font-size: 22px;
+//     // font-weight: bold;
+//     // color: #fff;
+//     height: 100%;
+// }
+
+// .swiper-slide:nth-child(1n) {
+//     background-color: rgb(206, 17, 17);
+//     border-radius: 10px;
+//     border-bottom-left-radius: 10px;
+//     border-bottom-right-radius: 10px;
+// }
+
+// .swiper-slide:nth-child(2n) {
+//     background-color: rgb(0, 140, 255);
+//     border-radius: 10px;
+//     border-bottom-left-radius: 10px;
+//     border-bottom-right-radius: 10px;
+// }
+
+// .swiper-slide:nth-child(3n) {
+//     background-color: rgb(10, 184, 111);
+//     border-radius: 10px;
+//     border-bottom-left-radius: 10px;
+//     border-bottom-right-radius: 10px;
+// }
+
+// .swiper-slide:nth-child(4n) {
+//     background-color: rgb(211, 122, 7);
+//     border-radius: 10px;
+//     border-bottom-left-radius: 10px;
+//     border-bottom-right-radius: 10px;
+// }
+
+.silde-content {
+    position: relative;
+}
+.item-image {
+    position: relative;
+    height: 100%;
+}
+.item-content {
+    position: absolute;
+    // background-color: chartreuse;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    // align-self: flex-end;
+    // background-color: black;
+    // opacity: 0.5;
+    // box-shadow: 0px -10px 33px -28px grey inset;
+    -moz-box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 15);
+    -webkit-box-shadow: inset 0 10px 10px 10px rgba(0, 0, 0, 15);
+    box-shadow: 0px -50px 75px 4px rgb(15, 14, 14) inset;
+}
+.button-start {
+    align-self: flex-end;
+    border-radius: 2em;
+    opacity: 0.8;
+    color: #303189;
+    right: 1em;
+    margin: 1em 0 3em 0;
+}
+.button-end {
+    background-color: #fff;
+    z-index: 1;
+    opacity: 2;
+    border-radius: 2em;
+    color: #303189;
+    margin: 1.5em 0 0 0;
+}
+.scroll-bar {
+    margin: 1em 0;
+}
+
+.brand-container {
+    position: relative;
+    // background-color: yellow;
+}
+.brand-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    width: 100vw;
+}
+
+// .swiper-pagination {
+//     .swiper-pagination-bullet {
+//         width: 30px;
+//         height: 2px;
+//         display: inline-block;
+//         background-color: #e6dcdc;
+//         &.swiper-pagination-bullet-active {
+//             background-color: #fff;
+//         }
+//     }
+// }
+.custom-bullet-img {
+    width: 30px;
+    height: 2px;
+    margin-right: 0.5em;
+    background-color: #9e9090;
+    display: inline-block;
+}
+.custom-active-bullet-img {
+    background-color: #fff;
+}
+
+.brand-scroll-bar {
+    margin: 1em 0 0 0;
+}
+.custom-bullet-brand {
+    height: 2px;
+    width: 30px;
+    background-color: gray;
+    display: inline-block;
+    margin: 0px 0.5em 0 0.5em;
+}
+.custom-bullet-active-brand {
+    background-color: #303189;
+}

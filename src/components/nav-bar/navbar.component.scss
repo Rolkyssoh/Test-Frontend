@@ -1,0 +1,36 @@
+.navbar {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    background-color: #fafafa;
+    border-radius: 3em;
+    box-shadow: 3px 3px 5px grey;
+    // margin-bottom: 2em;
+
+    &__route {
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        padding-right: unset;
+        border-radius: 2em;
+        transition: all 300ms ease-in-out;
+        color: #909090;
+        span {
+            color: currentColor;
+        }
+        &:hover,
+        &:active &:focus,
+        &--current {
+            background-color: #303189;
+            color: #fff;
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.home__container {
+    position: relative;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 7fr 2fr;
+    // background-color: red;
+    grid-gap: 1em;
+}
+.home__content {
+    position: relative;
+    display: grid;
+    grid-template-rows: 1.5fr 7fr;
+    grid-gap: 0.5em;
+    overflow: hidden;
+    // background-color: hotpink;
+}
+
+.home__header {
+    position: relative;
+    display: flex;
+    align-self: flex-start;
+    height: 3em;
+}
+.home__nav {
+    position: relative;
+    // background-color: green;
+    align-self: flex-start;
+    height: 3em;
+    border-radius: 3em;
+    margin: 0 1em;
+    align-items: center;
+}
+.content__container {
+    // background-color: yellow;
+    position: relative;
+    overflow-y: scroll;
+    // overflow-x: hidden;
+    // width: 50%;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    // flex-direction: column;
+    // justify-content: space-around;
+}
+/* Chrome */
+::-webkit-scrollbar {
+    display: none;
+}
+.carroussel__padd {
+    position: relative;
+    // background-color: brown;
+    margin: 0 1em;
+    // align-self: center;
+    // overflow-x: scroll;
+    // width: window.inn;
+}
+.slider__center {
+    // background-color: chartreuse;
+}
+.home__footer {
+    // background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    height: 100%;
+    justify-content: space-between;
+}
+.footer__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text__style {
+    color: #303189;
+    margin-right: 0.5em;
+}
